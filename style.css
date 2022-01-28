@@ -1,0 +1,91 @@
+:root {
+  --darkblue-color: #4c00af;
+  --blue-color: #6fcaff;
+  --skyblue-color: #d4d4d4;
+  --white-color: #ffffff;
+  --green-color: #d1bdbd;
+}
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #555;
+}
+h6 a {
+  text-decoration: none;
+  color: #555;
+}
+h6 a:hover {
+  text-decoration: none;
+  color: #555555;
+}
+p {
+  font-size: 16px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 {
+  background-color: var(--white-color);
+  color: #555555;
+}
+.bg-2 {
+  background-color: var(--skyblue-color);
+  color: #555555;
+}
+.bg-3 {
+  background-color: var(--skyblue-color);
+  color: #555555;
+}
+.bg-4 {
+  background-color: var(--blue-color);
+  color: #555555;
+}
+.bg-5 {
+  background-color: var(--darkblue-color);
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.container-fluid#top-container {
+  padding-top: 140px;
+}
+
+.container-fluid.flex{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #4c00af;
+  
+}
+.navbar-nav li a:hover {
+  color: black;
+}
+#myCarousel{
+  max-width: 70vw;
+}
+
+/*Font Awesome Icon Styling*/
+.fab{
+  color: #fff;
+}
+.fas{
+  color: #fff;
+}
+
+#iconOnWhite{
+  color: #000;
+}
